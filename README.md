@@ -456,8 +456,7 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 
 ## 👥 Authors
 
-- **Developer**: Your Name
-- **Contributed**: [List contributors]
+- **Developer**: Ali Hamza
 
 ---
 
@@ -465,7 +464,6 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 
 - Inspired by Bitcoin and Ethereum architectures
 - Built with Node.js, Electron, and Express
-- Thanks to the open-source community
 
 ---
 
