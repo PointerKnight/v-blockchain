@@ -14,7 +14,6 @@ A complete, production-ready peer-to-peer blockchain system with Proof of Vote c
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Quick Start](#quick-start)
 - [Usage](#usage)
 - [Technical Details](#technical-details)
 - [File Structure](#file-structure)
