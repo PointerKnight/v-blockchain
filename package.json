@@ -1,0 +1,34 @@
+{
+  "name": "v-blockchain",
+  "version": "1.0.0",
+  "description": "P2P Blockchain with Proof of Vote Consensus - GUI Edition",
+  "main": "electron-main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "electron .",
+    "dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "server": "node server.js",
+    "client": "node client.js",
+    "test": "node test.js",
+    "gui": "electron ."
+  },
+  "keywords": [
+    "blockchain",
+    "proof-of-vote",
+    "p2p",
+    "cryptocurrency",
+    "gui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "net": "^1.0.2",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "electron": "^40.0.0"
+  }
+}
