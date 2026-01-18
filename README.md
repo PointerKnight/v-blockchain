@@ -164,7 +164,7 @@ The system features a beautiful dual-interface design:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/v-blockchain.git
+git clone https://github.com/PointerKnight/v-blockchain.git
 cd v-blockchain
 ```
 
