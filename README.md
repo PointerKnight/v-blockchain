@@ -1,4 +1,4 @@
-# 🔗 V-Blockchain: Decentralized P2P Network
+#  V-Blockchain: Decentralized P2P Network
 
 A complete, production-ready peer-to-peer blockchain system with Proof of Vote consensus mechanism, built with Node.js and Electron.
 
@@ -6,7 +6,7 @@ A complete, production-ready peer-to-peer blockchain system with Proof of Vote c
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -22,7 +22,7 @@ A complete, production-ready peer-to-peer blockchain system with Proof of Vote c
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **V-Blockchain** is a sophisticated, decentralized cryptocurrency network implementing a novel **Proof of Vote (PoV)** consensus mechanism. Unlike traditional Proof of Work, PoV allows network participants to democratically validate blocks through voting, achieving consensus with a 66.7% approval threshold.
 
@@ -34,40 +34,40 @@ The system features a beautiful dual-interface design:
 
 ## ✨ Features
 
-### 🔐 Security & Cryptography
+###  Security & Cryptography
 - **RSA-2048 Encryption** for wallet key generation
 - **SHA-256 Hashing** for transaction and block integrity
 - **Digital Signatures** for transaction authentication
 - **Password-Protected Wallets** with salted hashing
 
-### 🏗️ Blockchain Technology
+###  Blockchain Technology
 - **Immutable Ledger** with blockchain validation
 - **Transaction Management** with pending pool and mining
 - **Block Mining** with configurable difficulty levels
 - **Chain Persistence** with automatic save/load from JSON
 - **Balance Tracking** with accurate transaction history
 
-### 🗳️ Consensus Mechanism
+###  Consensus Mechanism
 - **Proof of Vote (PoV)** consensus algorithm
 - **66.7% Approval Threshold** for block validation
 - **Democratic Voting System** where all nodes participate
 - **Vote Tracking** with approval percentages
 
-### 🌐 P2P Networking
+###  P2P Networking
 - **TCP Socket Communication** for peer-to-peer connections
 - **Automatic Peer Discovery** via bootstrap server
 - **Message Broadcasting** for transactions, blocks, and votes
 - **Network Synchronization** with real-time updates
 - **Boot Node Registration** for decentralized discovery
 
-### 💰 Wallet System
+###  Wallet System
 - **Unique V-Addresses** generated from public key hashes
 - **50 V Welcome Bonus** for new accounts (one-time only)
 - **Transaction History** with sent/received tracking
 - **QR Code Generation** for easy address sharing
 - **Persistent Storage** with password protection
 
-### 🎮 User Interface
+###  User Interface
 - **Professional GUI** built with Electron
 - **6-Tab Dashboard**: Wallet, Mining, Transactions, Blockchain, Network, Voting
 - **Real-time Updates** with automatic balance refresh
@@ -75,7 +75,7 @@ The system features a beautiful dual-interface design:
 - **Blockchain Explorer** for viewing chain history
 - **Network Statistics** showing connected nodes and total circulation
 
-### 🔧 Developer Features
+###  Developer Features
 - **REST API Server** for network discovery
 - **Comprehensive Logging** for debugging
 - **Automatic Firewall Configuration** on Windows
@@ -84,7 +84,7 @@ The system features a beautiful dual-interface design:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard & Wallet Management
 ![Wallet Tab](./screenshots/wallet.png)
@@ -112,7 +112,7 @@ The system features a beautiful dual-interface design:
 
 ---
 
-## 🏛️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -150,7 +150,7 @@ The system features a beautiful dual-interface design:
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Node.js**: v14.0 or higher
 - **npm**: v6.0 or higher
@@ -160,7 +160,7 @@ The system features a beautiful dual-interface design:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -180,7 +180,7 @@ npm install electron@latest --save-dev
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Option 1: Run GUI Application (Recommended)
 ```bash
@@ -202,7 +202,7 @@ Starts the IP registry and boot node on `localhost:3000`.
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Creating a New Account
 1. Launch the application
@@ -249,7 +249,7 @@ Starts the IP registry and boot node on `localhost:3000`.
 
 ---
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Consensus Algorithm: Proof of Vote (PoV)
 
@@ -311,7 +311,7 @@ User Creates Transaction
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 v-blockchain/
@@ -336,7 +336,7 @@ v-blockchain/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run the comprehensive test suite:
 ```bash
@@ -356,7 +356,7 @@ npm test
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 ### Implemented Security Features
 - ✅ RSA-2048 asymmetric encryption
@@ -377,7 +377,7 @@ npm test
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Network Configuration
 Edit `electron-main.js` to change:
@@ -402,7 +402,7 @@ Edit `p2p.js` to change:
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Single Node
 1. Install Node.js
@@ -424,7 +424,7 @@ docker run -p 3000:3000 v-blockchain
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -448,19 +448,19 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License** - see LICENSE file for details.
 
 ---
 
-## 👥 Authors
+##  Authors
 
 - **Developer**: Ali Hamza
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by Bitcoin and Ethereum architectures
 - Built with Node.js, Electron, and Express
@@ -471,7 +471,7 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Smart contract support
 - [ ] Cross-chain bridges
